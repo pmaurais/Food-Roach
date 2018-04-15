@@ -7,11 +7,32 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+  <ion-searchbar class="searchbar"
+    [(ngModel)]="myInput"
+    [showCancelButton]="shouldShowCancel"
+    (ionInput)="onInput($event)"
+    (ionCancel)="onCancel($event)">
+  </ion-searchbar>
+
+  <div style="text-align: center">
+    <button ion-button color="light" class="filterButton">Date</button>
+    <button ion-button color="light" class="filterButton">Distance</button>
+    <button ion-button color="light" class="filterButton">Filters</button>
+  </div>
+
+  <ion-card>
+    <ion-icon name="ios-ionic"></ion-icon>
+    <ion-card-content>
+      <ion-card-title>
+        Nine Inch Nails Live
+      </ion-card-title>
+      <p>
+        The most popular industrial group ever, and largely
+        responsible for bringing the music to a mass audience.
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+
+
 </ion-content>
