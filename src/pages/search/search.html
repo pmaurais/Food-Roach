@@ -8,10 +8,10 @@
 
 <ion-content>
   <ion-searchbar class="searchbar"
-    [(ngModel)]="myInput"
-    [showCancelButton]="shouldShowCancel"
-    (ionInput)="onInput($event)"
-    (ionCancel)="onCancel($event)">
+                 [(ngModel)]="myInput"
+                 [showCancelButton]="shouldShowCancel"
+                 (ionInput)="onInput($event)"
+                 (ionCancel)="onCancel($event)">
   </ion-searchbar>
 
   <div style="text-align: center">
@@ -20,19 +20,71 @@
     <button ion-button color="light" class="filterButton">Filters</button>
   </div>
 
-  <ion-card>
-    <ion-icon name="ios-ionic"></ion-icon>
-    <ion-card-content>
-      <ion-card-title>
-        Nine Inch Nails Live
-      </ion-card-title>
-      <p>
-        The most popular industrial group ever, and largely
-        responsible for bringing the music to a mass audience.
-      </p>
-    </ion-card-content>
-  </ion-card>
+  <div style="overflow-y: scroll; height:78%">
+    <ion-card>
+      <ion-card-content style="position: relative">
+        <div style="float: left">
+          <ion-icon name="ios-ionic"></ion-icon>
+        </div>
+        <div style="float: left;">
+          <ion-card-title>
+            Title of event
+          </ion-card-title>
+          <p>
+            description of event
+          </p>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-content style="position: relative">
+        <div style="float: left">
+          <ion-icon name="ios-ionic"></ion-icon>
+        </div>
+        <div style="float: left;">
+          <ion-card-title>
+            Title of event
+          </ion-card-title>
+          <p>
+            description of event
+          </p>
+        </div>
+      </ion-card-content>
+    </ion-card>
 
 
+    <ion-card>
+      <ion-card-content style="position: relative">
+        <div style="float: left">
+          <ion-icon name="ios-ionic"></ion-icon>
+        </div>
+        <div style="float: left;">
+          <ion-card-title>
+            Title of event
+          </ion-card-title>
+          <p>
+            description of event
+          </p>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-content style="position: relative">
+        <div style="float: left">
+          <ion-icon name="ios-ionic"></ion-icon>
+        </div>
+        <div style="float: left;">
+          <ion-card-title>
+            Title of event
+          </ion-card-title>
+          <p>
+            description of event
+          </p>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
 
 </ion-content>
