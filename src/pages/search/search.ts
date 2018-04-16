@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import {ModalController, NavController} from 'ionic-angular';
+import {DateModalPage} from "../date-modal/date-modal";
 
 @Component({
   selector: 'page-search',
@@ -7,8 +8,12 @@ import { NavController } from 'ionic-angular';
 })
 export class SearchPage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
 
   }
 
+  openDateModal() {
+    let dateModal = this.modalCtrl.create(DateModalPage);
+    dateModal.present();
+  }
 }
