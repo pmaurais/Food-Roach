@@ -11,6 +11,8 @@ import { AccountPage } from "../pages/account/account";
 import { FavoritesPage } from "../pages/favorties/favorites";
 import {CreateEventPage } from "../pages/createEvent/createEvent";
 import {DateModalPage} from "../pages/date-modal/date-modal";
+import {DistanceModalPage} from "../pages/distance-modal/distance-modal";
+import {FilterModalPage} from "../pages/filter-modal/filter-modal";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -24,7 +26,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     AlertsPage,
     AccountPage,
-    DateModalPage
+    DateModalPage,
+    DistanceModalPage,
+    FilterModalPage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +43,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TabsPage,
     AlertsPage,
     AccountPage,
-    DateModalPage
+    DateModalPage,
+    DistanceModalPage,
+    FilterModalPage
   ],
   providers: [
     StatusBar,

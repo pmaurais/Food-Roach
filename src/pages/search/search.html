@@ -16,8 +16,8 @@
 
   <div style="text-align: center">
     <button ion-button color="light" class="filterButton" (click)="openDateModal()" style="margin-right: 15px">Date</button>
-    <button ion-button color="light" class="filterButton">Distance</button>
-    <button ion-button color="light" class="filterButton" style="margin-left: 15px">Filters</button>
+    <button ion-button color="light" class="filterButton" (click)="openDistanceModal()">Distance</button>
+    <button ion-button color="light" class="filterButton" style="margin-left: 15px" (click)="openFilterModal()">Filters</button>
   </div>
 
   <div style="overflow-y: scroll; height:78%">
