@@ -18,61 +18,37 @@
 
   <ion-item-group>
     <ion-item-divider color="light">Type of Event</ion-item-divider>
-    <ion-item style="position: relative">
-      <div style="float:left;text-align: left">
-        Formal
-      </div>
-      <div style="float:left;">
-        <ion-checkbox [(ngModel)]="formal"></ion-checkbox>
-      </div>
+    <ion-item>
+      <ion-label >Formal</ion-label>
+      <ion-checkbox [(ngModel)]="formal"></ion-checkbox>
     </ion-item>
 
-    <ion-item style="position: relative">
-      <div style="float:left;text-align: left">
-        Informal
-      </div>
-      <div style="float:left;">
-        <ion-checkbox [(ngModel)]="informal"></ion-checkbox>
-      </div>
+    <ion-item>
+      <ion-label >Informal </ion-label >
+      <ion-checkbox [(ngModel)]="informal"></ion-checkbox>
     </ion-item>
   </ion-item-group>
 
   <ion-item-group>
-    <ion-item-divider color="light">Cuisines</ion-item-divider>
-    <ion-item style="position: relative">
-      <div style="float:left;text-align: left">
-        American
-      </div>
-      <div style="float:left;">
-        <ion-checkbox [(ngModel)]="American"></ion-checkbox>
-      </div>
+    <ion-item-divider color="light">Type of Food</ion-item-divider>
+    <ion-item>
+      <ion-label >Italian</ion-label>
+      <ion-checkbox [(ngModel)]="italian"></ion-checkbox>
     </ion-item>
 
-    <ion-item style="position: relative">
-      <div style="float:left;text-align: left">
-        Italian
-      </div>
-      <div style="float:left;">
-        <ion-checkbox [(ngModel)]="Italian"></ion-checkbox>
-      </div>
+    <ion-item>
+      <ion-label >American</ion-label>
+      <ion-checkbox [(ngModel)]="American"></ion-checkbox>
     </ion-item>
 
-    <ion-item style="position: relative">
-      <div style="float:left;text-align: left">
-        Korean
-      </div>
-      <div style="float:left;">
-        <ion-checkbox [(ngModel)]="Korean"></ion-checkbox>
-      </div>
+    <ion-item>
+      <ion-label >Mexican</ion-label>
+      <ion-checkbox [(ngModel)]="mexican"></ion-checkbox>
     </ion-item>
 
-    <ion-item style="position: relative">
-      <div style="float:left;text-align: left">
-        Mexican
-      </div>
-      <div style="float:left;">
-        <ion-checkbox [(ngModel)]="Mexican"></ion-checkbox>
-      </div>
+    <ion-item>
+      <ion-label >Korean</ion-label>
+      <ion-checkbox [(ngModel)]="korean"></ion-checkbox>
     </ion-item>
   </ion-item-group>
 

@@ -2,6 +2,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
+import { DatePicker } from "@ionic-native/date-picker";
 
 
 import { SearchPage } from '../pages/search/search';
@@ -48,6 +49,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FilterModalPage
   ],
   providers: [
+    DatePicker,
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
