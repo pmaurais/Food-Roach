@@ -15,5 +15,21 @@
 
 
 <ion-content padding>
+  <div>
+    <p></p>
+    <P></P>
+  </div>
+  <ion-list>
+    <ion-list-header>
+      Distance
+      <ion-badge item-end>{{distance}}</ion-badge>
+    </ion-list-header>
+    <ion-item>
 
+      <ion-range min="0" max="10" step="0.25" [(ngModel)]="distance">
+        <ion-label range-left>0 Miles</ion-label>
+        <ion-label range-right>10 Miles</ion-label>
+      </ion-range>
+    </ion-item>
+  </ion-list>
 </ion-content>
