@@ -1,11 +1,117 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Create Event
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
+  <ion-item-group>
+    <ion-item-divider color="light">Name of event</ion-item-divider>
+    <ion-item>
+      <ion-input type="text" value="" [(ngModel)]="EName"></ion-input>
+    </ion-item>
+  </ion-item-group>
 
+  <ion-item-group>
+    <ion-item-divider color="light">Date of Event</ion-item-divider>
+    <ion-item>
+      <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="EDate"></ion-datetime>
+    </ion-item>
+  </ion-item-group>
+
+  <ion-item-group>
+    <ion-item-divider color="light">Time of Event</ion-item-divider>
+    <ion-item>
+      <ion-datetime displayFormat="h m" [(ngModel)]="Etime"></ion-datetime>
+    </ion-item>
+  </ion-item-group>
+
+  <ion-item-group>
+    <ion-item-divider color="light">Location</ion-item-divider>
+    <ion-item>
+      <ion-label color="primary" floating>Address</ion-label>
+      <ion-input type="text" value="" [(ngModel)]="EAdd1"></ion-input>
+      <ion-input type="text" value="" [(ngModel)]="EAdd2"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" floating>City</ion-label>
+      <ion-input type="text" value="" [(ngModel)]="ECity"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" floating>State</ion-label>
+      <ion-input type="text" value="" [(ngModel)]="EState"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" floating>Zip</ion-label>
+      <ion-input type="text" value="" [(ngModel)]="EZip"></ion-input>
+    </ion-item>
+  </ion-item-group>
+
+
+  <ion-item-group>
+    <ion-item-divider color="light">Type of Cuisine</ion-item-divider>
+    <ion-item>
+      <ion-select [(ngModel)]="ETypeOfCuisine">
+        <ion-option value="Italian">Italian</ion-option>
+        <ion-option value="American">American</ion-option>
+        <ion-option value="Mexican">Mexican</ion-option>
+        <ion-option value="Korean">Korean</ion-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item-group>
+      <ion-item-divider color="light">Dietary Restrictions</ion-item-divider>
+        <ion-item>
+          <ion-label>Vegan</ion-label>
+          <ion-checkbox [(ngModel)]="EVegan"></ion-checkbox>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Vegitarian</ion-label>
+          <ion-checkbox [(ngModel)]="EVegitarian"></ion-checkbox>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Halal</ion-label>
+          <ion-checkbox [(ngModel)]="EHalal"></ion-checkbox>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Kosher</ion-label>
+          <ion-checkbox [(ngModel)]="EKosher"></ion-checkbox>
+        </ion-item>
+
+    </ion-item-group>
+
+    <ion-item-group>
+      <ion-item-divider color="light">Event type</ion-item-divider>
+      <ion-list radio-group [(ngModel)]="EType">
+        <ion-item>
+          <ion-label>Formal</ion-label>
+          <ion-radio value="formal" checked></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Informal</ion-label>
+          <ion-radio value="informal"></ion-radio>
+        </ion-item>
+
+      </ion-list>
+    </ion-item-group>
+
+  </ion-item-group>
+
+  <ion-item-group>
+    <ion-item-divider color="light">Upload A Photo</ion-item-divider>
+
+    <ion-item>
+      <button>Upload</button>
+    </ion-item>
+
+  </ion-item-group>
 </ion-content>
