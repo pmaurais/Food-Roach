@@ -1,11 +1,80 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Favorites
     </ion-title>
   </ion-navbar>
+
+  <ion-toolbar no-border-top>
+    <ion-segment [(ngModel)]="PoF">
+      <ion-segment-button value="F">
+        Upcoming
+      </ion-segment-button>
+      <ion-segment-button value="P">
+        Past
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
+
+  <div style="position: relative;">
+    <div style="float: left; width: 20%;">
+      Timeline
+    </div>
+
+    <div style="float: left;">
+      <div class="card">
+        <div class="card_image">
+          <img src="http://www.thechinesequest.com/wp-content/uploads/2014/08/Chinese-food-facts.jpg" alt="" class="image">
+        </div>
+
+        <div class="cardContent">
+          <p class="cardContentName">China Night</p>
+          <button class="cardContentButton2">  <ion-icon ios="ios-star" md="md-star"></ion-icon> </button>
+          <button class="cardContentButton"><i class="material-icons"></i> <ion-icon ios="ios-share" md="md-share"></ion-icon> </button>
+          <div class ="tag-buttons">
+            <button class = "button-tags"  ion-button round >Apr 6</button>
+            <button class = "button-tags"  ion-button round >Formal</button>
+            <button class = "button-tags"  ion-button round >Asian</button>
+            <button class = "button-tags"  ion-button round >600 ft</button>
+
+          </div>
+
+          <div class="titleSocial">Follow me</div>
+          <ul class="menuSocial">
+            <li class="menuSocialItem"><a class="menuSocialItemLink icon-twitter"></a></li><li class="menuSocialItem"><a class="menuSocialItemLink icon-facebook2"></a></li><li class="menuSocialItem"><a href="https://plus.google.com/u/0/+JuanAntonioBeatoQui%C3%B1ones/posts" class="menuSocialItemLink icon-google-plus2"></a></li><li class="menuSocialItem"><a href="https://es.linkedin.com/in/juanbeato" class="menuSocialItemLink icon-linkedin2"></a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <div class="card_image">
+          <img src="http://www.thechinesequest.com/wp-content/uploads/2014/08/Chinese-food-facts.jpg" alt="" class="image">
+        </div>
+
+        <div class="cardContent">
+          <p class="cardContentName">China Night</p>
+          <button class="cardContentButton2">  <ion-icon ios="ios-star" md="md-star"></ion-icon> </button>
+          <button class="cardContentButton"><i class="material-icons"></i> <ion-icon ios="ios-share" md="md-share"></ion-icon> </button>
+          <div class ="tag-buttons">
+            <button class = "button-tags"  ion-button round >Apr 6</button>
+            <button class = "button-tags"  ion-button round >Formal</button>
+            <button class = "button-tags"  ion-button round >Asian</button>
+            <button class = "button-tags"  ion-button round >600 ft</button>
+
+          </div>
+
+          <div class="titleSocial">Follow me</div>
+          <ul class="menuSocial">
+            <li class="menuSocialItem"><a class="menuSocialItemLink icon-twitter"></a></li><li class="menuSocialItem"><a class="menuSocialItemLink icon-facebook2"></a></li><li class="menuSocialItem"><a href="https://plus.google.com/u/0/+JuanAntonioBeatoQui%C3%B1ones/posts" class="menuSocialItemLink icon-google-plus2"></a></li><li class="menuSocialItem"><a href="https://es.linkedin.com/in/juanbeato" class="menuSocialItemLink icon-linkedin2"></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 </ion-content>
