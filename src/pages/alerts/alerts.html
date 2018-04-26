@@ -9,6 +9,8 @@
   <ion-navbar>
     <ion-title>alerts</ion-title>
   </ion-navbar>
+
+
   <div class="Message" id="js-timer">
     <div class="Message-icon">
       <i class="fa fa-bell-o"></i>
@@ -20,6 +22,16 @@
     <button class="Message-close js-messageClose"><i class="fa fa-times"></i></button>
   </div>
 
+  <div class="Message Message--orange">
+    <div class="Message-icon">
+      <i class="fa fa-exclamation"></i>
+    </div>
+    <div class="Message-body">
+      <p>This is a simple notification with a brighter color...</p>
+      <p>If you bring you mouse here you can close it manually.</p>
+    </div>
+    <button class="Message-close js-messageClose"><i class="fa fa-times"></i></button>
+  </div>
 
 
   <div class="Message Message--green">
@@ -33,42 +45,9 @@
     <button class="Message-close js-messageClose"><i class="fa fa-times"></i></button>
   </div>
 
-  <div class="Message Message--red">
-    <div class="Message-icon">
-      <i class="fa fa-times"></i>
-    </div>
-    <div class="Message-body">
-      <p>This is a notification that something went wrong...</p>
-      <button class="Message-button" id="js-helpMe">Yikes, help me please!</button>
-      <button class="Message-button js-messageClose">Don't care.</button>
-    </div>
-    <button class="Message-close js-messageClose"><i class="fa fa-times"></i></button>
-  </div>
 
-  <div class="Message">
-    <div class="Message-icon">
-      <i class="fa fa-bell-o"></i>
-    </div>
-    <div class="Message-body">
-      <p>Do you know that you can assign status and relation to a company right in the visit list?</p>
-      <button class="Message-button" id="js-showMe">Show me how</button>
-      <button class="Message-button js-messageClose">Nah, not interested</button>
-    </div>
-    <button class="Message-close js-messageClose"><i class="fa fa-times"></i></button>
-  </div>
 
-  <div class="Message Message--orange">
-    <div class="Message-icon">
-      <i class="fa fa-exclamation"></i>
-    </div>
-    <div class="Message-body">
-      <p>You haven't authorized your LinkedIn account. Would you like some help with that?</p>
-      <p class="u-italic">With your account connected we can show you what connections you have at a company that visited your site!</p>
-      <button class="Message-button" id="js-authMe">Authorize!</button>
-      <button class="Message-button js-messageClose">I'll just keep using carrier pigeons</button>
-    </div>
-    <button class="Message-close js-messageClose"><i class="fa fa-times"></i></button>
-  </div>
+
 </ion-header>
 
 

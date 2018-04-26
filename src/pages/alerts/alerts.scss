@@ -25,7 +25,7 @@ body {
   display: table;
   position: relative;
   margin: 40px auto 0;
-  width: 350px;
+  width: 400px;
   background-color: nth($c-blues, 2);
   color: #fff;
   transition: all 0.2s ease;
@@ -39,19 +39,23 @@ body {
     display: block;
   }
 }
-
+.Message--orange {
+  background-color: nth($c-yellows, 1);
+}
 
 .Message--red {
   background-color: nth($c-reds, 2);
 }
 
-
+.Message--green {
+  background-color: nth($c-greens, 2);
+}
 
 .Message-icon {
   display: table-cell;
   vertical-align: middle;
-  width: 40px;
-  padding: 0px;
+  width: 60px;
+  padding: 30px;
   text-align: center;
   background-color: rgba(black, 0.25);
 
