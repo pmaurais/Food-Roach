@@ -7,7 +7,11 @@ body {
 }
 
 .filterButton{
-
+//margin-left: 10%;
+}
+.dem-buttons{
+  margin-top: 2%;
+  margin-right: 80px;
 }
 ion-icon {
   font-size: 40px; //Preferred size here
@@ -15,7 +19,7 @@ ion-icon {
 }
 
 .button-tags{
-  background-color: #9c786c;
+  background-color: #00AA8D;
   height: 40px;
   width: 70px;
 }
@@ -30,10 +34,10 @@ ion-icon {
   position: relative;
 }
 .card{
-  width: 425px;
+  width: 350px;
   margin: 0 auto;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  margin-top: 5em;
+  margin-top: 1em;
   margin-bottom: 3em;
 
   .cardContent{
@@ -119,9 +123,9 @@ ion-icon {
       height: 60px;
       box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
       color: white;
-      background-color: #ffc107;
+      background-color: #00AA8D;
       position: absolute;
-      right: 20%;
+      right: 25%;
       top: 5px;
       z-index: 3;
       -webkit-transition-duration:0.2s;
@@ -151,7 +155,7 @@ ion-icon {
       height: 60px;
       box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
       color: white;
-      background-color: #ffc107;
+      background-color: #00AA8D;
       position: absolute;
       right: 4%;
       top: 5px;
@@ -186,7 +190,7 @@ ion-icon {
     }
 
     .cardContentName{
-      color:#6d4c41;
+      color:black;
       font-size: 25px;
     }
 
