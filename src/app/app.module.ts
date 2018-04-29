@@ -14,6 +14,7 @@ import {CreateEventPage } from "../pages/createEvent/createEvent";
 import {DateModalPage} from "../pages/date-modal/date-modal";
 import {DistanceModalPage} from "../pages/distance-modal/distance-modal";
 import {FilterModalPage} from "../pages/filter-modal/filter-modal";
+import {EventData} from "./EventData";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -29,7 +30,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AccountPage,
     DateModalPage,
     DistanceModalPage,
-    FilterModalPage
+    FilterModalPage,
   ],
   imports: [
     BrowserModule,
@@ -46,12 +47,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AccountPage,
     DateModalPage,
     DistanceModalPage,
-    FilterModalPage
+    FilterModalPage,
   ],
   providers: [
     DatePicker,
     StatusBar,
     SplashScreen,
+    EventData,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
