@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import {EventData} from "../../app/EventData";
+import { FilterModalPage } from './filter-modal';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,4 @@ import {EventData} from "../../app/EventData";
     IonicPageModule.forChild(FilterModalPage),
   ],
 })
-export class FilterModalPageModule {
-
-
-}
+export class FilterModalPageModule {}

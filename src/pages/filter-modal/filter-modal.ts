@@ -29,13 +29,13 @@ export class FilterModalPage {
   }
 
   updateType($scope){
-    if ($scope.Formal==True){
+    if ($scope.Formal==true){
       EventData
     } else{
 
     }
 
-    if ($scope.Informal==True){
+    if ($scope.Informal==true){
 
     } else{
 

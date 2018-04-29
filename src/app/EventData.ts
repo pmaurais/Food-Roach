@@ -19,7 +19,7 @@ export class EventData {
 
     for (let a of type){
       for(let event of this.EventList){
-        if (a==event.type || a=-1){
+        if (a==event.type || a==-1){
           this.FilterList.push(event)
         }
       }
@@ -27,7 +27,7 @@ export class EventData {
 
     for (let b of food){
       for(let event of this.FilterList){
-        if (a==event.type || a=-1){
+        if (b==event.type || a==-1){
           this.FilterList.push(event)
         }
       }
@@ -35,7 +35,7 @@ export class EventData {
 
     for (let c of diet){
       for(let event of this.FilterList){
-        if (a==event.type || a=-1){
+        if (c==event.type || a==-1){
           this.FilterList.push(event)
         }
       }
