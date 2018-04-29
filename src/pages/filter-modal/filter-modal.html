@@ -20,12 +20,12 @@
     <ion-item-divider color="light">Type of Event</ion-item-divider>
     <ion-item>
       <ion-label >Formal</ion-label>
-      <ion-checkbox [(ngModel)]="Formal" (ionChange)="updateType()"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="Formal" (ionChange)="updateFilter()"></ion-checkbox>
     </ion-item>
 
     <ion-item>
       <ion-label >Informal </ion-label >
-      <ion-checkbox [(ngModel)]="Informal" (ionChange)="updateType()"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="Informal" (ionChange)="updateFilter()"></ion-checkbox>
     </ion-item>
   </ion-item-group>
 
@@ -33,22 +33,22 @@
     <ion-item-divider color="light">Type of Food</ion-item-divider>
     <ion-item>
       <ion-label >Italian</ion-label>
-      <ion-checkbox [(ngModel)]="Italian" (ionChange)="updateFood()"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="Italian" (ionChange)="updateFilter()"></ion-checkbox>
     </ion-item>
 
     <ion-item>
       <ion-label >American</ion-label>
-      <ion-checkbox [(ngModel)]="American" (ionChange)="updateFood()"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="American" (ionChange)="updateFilter()"></ion-checkbox>
     </ion-item>
 
     <ion-item>
       <ion-label >Mexican</ion-label>
-      <ion-checkbox [(ngModel)]="Mexican" (ionChange)="updateFood()"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="Mexican" (ionChange)="updateFilter"></ion-checkbox>
     </ion-item>
 
     <ion-item>
       <ion-label >Korean</ion-label>
-      <ion-checkbox [(ngModel)]="Korean" (ionChange)="updateFood()"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="Korean" (ionChange)="updateFilter"></ion-checkbox>
     </ion-item>
   </ion-item-group>
 
@@ -56,22 +56,22 @@
     <ion-item-divider color="light">Dietary Restrictions</ion-item-divider>
     <ion-item>
       <ion-label >Vegan</ion-label>
-      <ion-checkbox [(ngModel)]="Vegan" (ionChange)="updateDiet()"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="Vegan" (ionChange)="updateFilter"></ion-checkbox>
     </ion-item>
 
     <ion-item>
       <ion-label >Vegitarian</ion-label>
-      <ion-checkbox [(ngModel)]="Vegitarian" (ionChange)="updateDiet()"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="Vegitarian" (ionChange)="updateFilter"></ion-checkbox>
     </ion-item>
 
     <ion-item>
       <ion-label >Halal</ion-label>
-      <ion-checkbox [(ngModel)]="Halal" (ionChange)="updateDiet()"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="Halal" (ionChange)="updateFilter"></ion-checkbox>
     </ion-item>
 
     <ion-item>
       <ion-label >Kosher</ion-label>
-      <ion-checkbox [(ngModel)]="Kosher" (ionChange)="updateDiet()"></ion-checkbox>
+      <ion-checkbox [(ngModel)]="Kosher" (ionChange)="updateFilter()"></ion-checkbox>
     </ion-item>
   </ion-item-group>
 

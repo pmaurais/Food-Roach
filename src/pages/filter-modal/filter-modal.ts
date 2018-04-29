@@ -17,7 +17,7 @@ import {EventData} from "../../app/EventData";
 })
 export class FilterModalPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,public viewCtrl: ViewController, public EcentData: EventData) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,public viewCtrl: ViewController, public EventData: EventData) {
   }
 
   closeModal() {
@@ -28,26 +28,8 @@ export class FilterModalPage {
     console.log('ionViewDidLoad FilterModalPage');
   }
 
-  updateType($scope){
-    if ($scope.Formal==true){
-      EventData
-    } else{
-
-    }
-
-    if ($scope.Informal==true){
-
-    } else{
-
-    }
-  }
-
-  updateFood($scope){
-
-  }
-
-  updateDiet($scope){
-
+  updateFilter(){
+    this.EventData.filter(-1,-1,-1,-1,-1);
   }
 
 }
