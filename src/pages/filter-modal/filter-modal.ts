@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ViewController } from 'ionic-angular';
+import {EventData} from "../../app/EventData";
 
 /**
  * Generated class for the FilterModalPage page.
@@ -16,7 +17,7 @@ import { ViewController } from 'ionic-angular';
 })
 export class FilterModalPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams,public viewCtrl: ViewController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,public viewCtrl: ViewController, public EcentData: EventData) {
   }
 
   closeModal() {
@@ -25,6 +26,28 @@ export class FilterModalPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad FilterModalPage');
+  }
+
+  updateType($scope){
+    if ($scope.Formal==True){
+      EventData
+    } else{
+
+    }
+
+    if ($scope.Informal==True){
+
+    } else{
+
+    }
+  }
+
+  updateFood($scope){
+
+  }
+
+  updateDiet($scope){
+
   }
 
 }

@@ -36,7 +36,7 @@ import {EventData} from "../../app/EventData";
       </div>
 
 
-      <div *ngFor="let event of EventList" class="card">
+      <div *ngFor="let event of FilterList" class="card">
         <div class="card_image">
           <img src={{event.image}} alt="" class="image">
         </div>
@@ -92,7 +92,8 @@ export class SearchPage {
     filterModal.present();
   }
 
-  EventList = this.EventData.EventList
+  EventList = this.EventData.EventList;
+  FilterList = this.EventData.FilterList;
 
 
 }
