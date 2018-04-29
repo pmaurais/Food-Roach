@@ -25,7 +25,7 @@ import {EventData} from "../../app/EventData";
                      (ionCancel)="onCancel($event)">
       </ion-searchbar>
 
-      <div class="dem-buttons" style="text-align: center">
+      <div style="text-align: center">
         <button ion-button color="light" class="filterButton" (click)="openDateModal()" style="margin-right: 15px">
           Date
         </button>
