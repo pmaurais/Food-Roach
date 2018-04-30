@@ -17,6 +17,7 @@ export class EventData {
 
   public filter(type, food, diet, distance, date){
     this.FilterList=[];
+    this.TempList=[];
 
     for (let a of type){
       for(let event of this.EventList){
