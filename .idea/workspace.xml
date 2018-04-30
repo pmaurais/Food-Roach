@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ffa4382-fe12-44e3-831b-d99ef2e594e9" name="Default" comment="Build Fix">
+    <list default="true" id="0ffa4382-fe12-44e3-831b-d99ef2e594e9" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/@ionic/app-scripts/lab/static/img/android-statusbar.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/@ionic/app-scripts/lab/static/img/ios-statusbar.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/@ionic/app-scripts/lab/static/img/popup-ionitron.png" />
@@ -3044,7 +3044,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/.bin/shjs" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/abbrev/abbrev.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/android-versions/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/android-versions/tests/index.test.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/ansi/History.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/ansi/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/ansi/examples/clear/index.js" />
@@ -11877,16 +11876,61 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/manifest.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/brace-expansion/LICENSE" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/0.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/0.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/1.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/1.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sourcemaps/main.js.map" afterPath="$PROJECT_DIR$/.sourcemaps/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/RELEASENOTES.md" afterPath="$PROJECT_DIR$/node_modules/cordova-android/RELEASENOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/VERSION" afterPath="$PROJECT_DIR$/node_modules/cordova-android/VERSION" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/cordova/lib/android_sdk.js" afterPath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/cordova/lib/android_sdk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/cordova/lib/builders/StudioBuilder.js" afterPath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/cordova/lib/builders/StudioBuilder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/cordova/lib/emulator.js" afterPath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/cordova/lib/emulator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/cordova/version" afterPath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/cordova/version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/project/app/build.gradle" afterPath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/project/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/project/assets/www/cordova.js" afterPath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/project/assets/www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/project/build.gradle" afterPath="$PROJECT_DIR$/node_modules/cordova-android/bin/templates/project/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/framework/AndroidManifest.xml" afterPath="$PROJECT_DIR$/node_modules/cordova-android/framework/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/framework/build.gradle" afterPath="$PROJECT_DIR$/node_modules/cordova-android/framework/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/framework/cordova.gradle" afterPath="$PROJECT_DIR$/node_modules/cordova-android/framework/cordova.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/CordovaActivity.java" afterPath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/CordovaActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/CordovaWebView.java" afterPath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/CordovaWebView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/NativeToJsMessageQueue.java" afterPath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/NativeToJsMessageQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/engine/SystemWebChromeClient.java" afterPath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/engine/SystemWebChromeClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/engine/SystemWebViewClient.java" afterPath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/engine/SystemWebViewClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/engine/SystemWebViewEngine.java" afterPath="$PROJECT_DIR$/node_modules/cordova-android/framework/src/org/apache/cordova/engine/SystemWebViewEngine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/abbrev/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/abbrev/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/android-versions/index.js" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/android-versions/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/ansi/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/ansi/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/base64-js/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/base64-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/big-integer/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/big-integer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/bplist-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/bplist-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/concat-map/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/concat-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/cordova-common/RELEASENOTES.md" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/cordova-common/RELEASENOTES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/cordova-common/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/cordova-common/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/cordova-common/src/ConfigChanges/ConfigChanges.js" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/cordova-common/src/ConfigChanges/ConfigChanges.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/cordova-common/src/ConfigParser/ConfigParser.js" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/cordova-common/src/ConfigParser/ConfigParser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/elementtree/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/elementtree/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/glob/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/minimatch/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/minimatch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/once/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/once/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/os-homedir/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/os-homedir/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/os-tmpdir/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/os-tmpdir/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/osenv/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/osenv/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/path-is-absolute/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/path-is-absolute/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/properties-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/properties-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/q/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/q/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/semver/README.md" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/semver/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/semver/bin/semver" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/semver/bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/semver/range.bnf" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/semver/range.bnf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/semver/semver.js" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/semver/semver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/unorm/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/unorm/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/util-deprecate/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/util-deprecate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-android/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-android/test/app/src/test/java/org/apache/cordova/unittests/NativeToJsMessageQueueTest.java" afterPath="$PROJECT_DIR$/node_modules/cordova-android/test/app/src/test/java/org/apache/cordova/unittests/NativeToJsMessageQueueTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic-webview/package.json" afterPath="$PROJECT_DIR$/node_modules/cordova-plugin-ionic-webview/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/2.js.map" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/2.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/3.js" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/4.js" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/4.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/main.css" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/main.js.map" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/main.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/EventData.ts" afterPath="$PROJECT_DIR$/src/app/EventData.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -12051,6 +12095,11 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="filter-modal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FoodRoach" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FoodRoach" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -12204,7 +12253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FoodRoach/src/index.html" />
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FoodRoach/Desktop/Food-Roach-ionic3/src/index.html" />
     <configuration name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/FoodRoach/www/index.html" />
@@ -12219,9 +12268,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.search.html" />
       </list>
@@ -12249,7 +12298,7 @@
       <workItem from="1525033944574" duration="102000" />
       <workItem from="1525034118459" duration="111000" />
       <workItem from="1525034692403" duration="1665000" />
-      <workItem from="1525118353904" duration="549000" />
+      <workItem from="1525118353904" duration="1290000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1523314312413</created>
@@ -12468,23 +12517,30 @@
       <option name="project" value="LOCAL" />
       <updated>1525036178388</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Build Fix">
+      <created>1525119030617</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1525119030617</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68581000" />
+    <option name="totallyTimeSpent" value="69322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20386904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20386904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29623568" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.3297561" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="453" y="147" width="704" height="262" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.3297561" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="455" y="149" width="704" height="262" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61290324" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
