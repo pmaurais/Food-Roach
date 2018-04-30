@@ -4,6 +4,8 @@ import {DateModalPage} from "../date-modal/date-modal";
 import {DistanceModalPage} from "../distance-modal/distance-modal";
 import {FilterModalPage} from "../filter-modal/filter-modal";
 import {EventData} from "../../app/EventData";
+import {EventPage} from "../event/event";
+
 
 @Component({
   selector: 'page-search',
@@ -38,7 +40,7 @@ import {EventData} from "../../app/EventData";
 
       <div *ngFor="let event of FilterList" class="card">
         <div class="card_image">
-          <img src={{event.image}} alt="" class="image">
+          <img src={{event.image}} alt="" class="image" (click)="openEventModal()" >
         </div>
 
         <div class="cardContent">
@@ -91,7 +93,10 @@ export class SearchPage {
     let filterModal = this.modalCtrl.create(FilterModalPage);
     filterModal.present();
   }
-
+  openEventModal() {
+    let eventModal = this.modalCtrl.create(EventPage);
+    eventModal.present();
+  }
   EventList = this.EventData.EventList;
   FilterList = this.EventData.FilterList;
 

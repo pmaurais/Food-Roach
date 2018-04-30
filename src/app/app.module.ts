@@ -18,6 +18,7 @@ import {EventData} from "./EventData";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {EventPage} from "../pages/event/event";
 
 @NgModule({
   declarations: [
@@ -31,6 +32,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DateModalPage,
     DistanceModalPage,
     FilterModalPage,
+    EventPage,
+
   ],
   imports: [
     BrowserModule,
@@ -48,6 +51,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DateModalPage,
     DistanceModalPage,
     FilterModalPage,
+    EventPage,
   ],
   providers: [
     DatePicker,

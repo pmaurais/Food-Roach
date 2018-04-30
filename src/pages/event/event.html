@@ -9,10 +9,46 @@
   <ion-navbar>
     <ion-title>event-page</ion-title>
   </ion-navbar>
-
+  <ion-buttons end>
+    <button ion-button icon-only (click)="closeModal()">
+      <ion-icon item-right name="ios-close-outline"></ion-icon>
+    </button>
+  </ion-buttons>
 </ion-header>
 
 
 <ion-content padding>
+
+  <div class="card">
+    <div class="card_image">
+      <img src="http://www.thechinesequest.com/wp-content/uploads/2014/08/Chinese-food-facts.jpg" alt="" class="image">
+    </div>
+  <div class="cardContent">
+    <p class="cardContentName">China Night</p>
+     <div class ="icon-event">
+       <ion-icon class ="icon-event" name="pizza"></ion-icon> Asian
+       <hr>
+       <ion-icon class ="icon-event" name="time"></ion-icon> April 6th
+       <hr>
+       <ion-icon class ="icon-event" name="bug"></ion-icon> Formal
+       <hr>
+       <ion-icon class ="icon-event" name="navigate"></ion-icon> 600 ft
+       <hr>
+     </div>
+
+    <p class="cardContentName">Description</p>
+    <p> Come to celebrate Chinese lunar new year, one of the most important festivals in China with us on Feb. 20th. There will be a great variety of authentic Chinese food as well as exciting performances! This will be a great chance for you to take a break from stressful schoolwork, hang out with besties, and even have a sweet night with your family!</p>
+    </div>
+    <ion-toolbar no-border-top>
+      <ion-segment [(ngModel)]="PoF">
+        <ion-segment-button value="F">
+          Upcoming
+        </ion-segment-button>
+        <ion-segment-button value="P">
+          Past
+        </ion-segment-button>
+      </ion-segment>
+    </ion-toolbar>
+  </div>
 
 </ion-content>

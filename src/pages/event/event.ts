@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ViewController } from 'ionic-angular';
+import {EventData} from "../../app/EventData";
 
 /**
  * Generated class for the EventPage page.
@@ -15,11 +17,13 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class EventPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,public viewCtrl: ViewController, public EventData: EventData) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad EventPage');
   }
-
+  closeModal() {
+    this.viewCtrl.dismiss();
+  }
 }
