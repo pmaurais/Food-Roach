@@ -94,109 +94,6 @@ var AlertsPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DistanceModalPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the DistanceModalPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var DistanceModalPage = /** @class */ (function () {
-    function DistanceModalPage(navCtrl, navParams, viewCtrl) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.viewCtrl = viewCtrl;
-    }
-    DistanceModalPage.prototype.closeModal = function () {
-        this.viewCtrl.dismiss();
-    };
-    DistanceModalPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DistanceModalPage');
-    };
-    DistanceModalPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-distance-modal',template:/*ion-inline-start:"C:\Users\Paul\WebstormProjects\FoodRoach\src\pages\distance-modal\distance-modal.html"*/'<!--\n  Generated template for the DistanceModalPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Select Distance</ion-title>\n    <button ion-button block (click)="closeModal()">Close</button>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <div>\n    <p></p>\n    <P></P>\n  </div>\n  <ion-list>\n    <ion-list-header>\n      Distance\n      <ion-badge item-end>{{distance}}</ion-badge>\n    </ion-list-header>\n    <ion-item>\n\n      <ion-range min="0" max="10" step="0.25" [(ngModel)]="distance">\n        <ion-label range-left>0 Miles</ion-label>\n        <ion-label range-right>10 Miles</ion-label>\n      </ion-range>\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Paul\WebstormProjects\FoodRoach\src\pages\distance-modal\distance-modal.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ViewController */]])
-    ], DistanceModalPage);
-    return DistanceModalPage;
-}());
-
-//# sourceMappingURL=distance-modal.js.map
-
-/***/ }),
-
-/***/ 104:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_EventData__ = __webpack_require__(46);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the EventPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var EventPage = /** @class */ (function () {
-    function EventPage(navCtrl, navParams, viewCtrl, EventData) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.viewCtrl = viewCtrl;
-        this.EventData = EventData;
-    }
-    EventPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad EventPage');
-    };
-    EventPage.prototype.closeModal = function () {
-        this.viewCtrl.dismiss();
-    };
-    EventPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-event',template:/*ion-inline-start:"C:\Users\Paul\WebstormProjects\FoodRoach\src\pages\event\event.html"*/'<!--\n\n  Generated template for the EventPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>event-page</ion-title>\n\n  </ion-navbar>\n\n  <ion-buttons end>\n\n    <button ion-button icon-only (click)="closeModal()">\n\n      <ion-icon name="close-circle"></ion-icon>\n\n    </button>\n\n  </ion-buttons>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <div class="card">\n\n    <div class="card_image">\n\n      <img src="http://www.thechinesequest.com/wp-content/uploads/2014/08/Chinese-food-facts.jpg" alt="" class="image">\n\n    </div>\n\n  <div class="cardContent">\n\n    <p class="cardContentName">China Night</p>\n\n     <div class ="icon-event">\n\n       <ion-icon class ="icon-event" name="time"></ion-icon> April 6th\n\n       <hr>\n\n       <ion-icon class ="icon-event" name="pizza"></ion-icon> Asian\n\n       <hr>\n\n       <ion-icon class ="icon-event" name="bug"></ion-icon> Formal\n\n       <hr>\n\n       <ion-icon class ="icon-event" name="navigate"></ion-icon> 600 ft\n\n       <hr>\n\n     </div>\n\n\n\n    <p class="cardContentName">Description</p>\n\n    <p> Come to celebrate Chinese lunar new year, one of the most important festivals in China with us on Feb. 20th. There will be a great variety of authentic Chinese food as well as exciting performances! This will be a great chance for you to take a break from stressful schoolwork, hang out with besties, and even have a sweet night with your family!</p>\n\n    </div>\n\n    <ion-toolbar no-border-top>\n\n      <ion-segment [(ngModel)]="PoF">\n\n        <ion-segment-button value="F">\n\n          Comments\n\n        </ion-segment-button>\n\n        <ion-segment-button value="P">\n\n          Questions\n\n        </ion-segment-button>\n\n      </ion-segment>\n\n    </ion-toolbar>\n\n    <hr>\n\n    <div id="live-chat">\n\n\n\n      <div class="chat">\n\n\n\n        <div class="chat-history">\n\n\n\n          <div class="chat-message clearfix">\n\n\n\n            <img src="http://lorempixum.com/32/32/people" alt="" width="32" height="32">\n\n\n\n            <div class="chat-message-content clearfix">\n\n\n\n              <span class="chat-time">13:35</span>\n\n\n\n              <h5>Qile</h5>\n\n\n\n              <p>Are there any Veggie options?</p>\n\n\n\n            </div> <!-- end chat-message-content -->\n\n\n\n          </div> <!-- end chat-message -->\n\n\n\n          <hr>\n\n\n\n          <div class="chat-message clearfix">\n\n\n\n            <img src="http://gravatar.com/avatar/2c0ad52fc5943b78d6abe069cc08f320?s=32" alt="" width="32" height="32">\n\n\n\n            <div class="chat-message-content clearfix">\n\n\n\n              <span class="chat-time">13:37</span>\n\n\n\n              <h5>Joakin Isoaho</h5>\n\n\n\n              <p>Thank you for such an amazing event!</p>\n\n\n\n            </div> <!-- end chat-message-content -->\n\n\n\n          </div> <!-- end chat-message -->\n\n\n\n          <hr>\n\n\n\n          <div class="chat-message clearfix">\n\n\n\n            <img src="http://lorempixum.com/32/32/people" alt="" width="32" height="32">\n\n\n\n            <div class="chat-message-content clearfix">\n\n\n\n              <span class="chat-time">13:38</span>\n\n\n\n              <h5> Rajul</h5>\n\n\n\n              <p> Are there any halal options?</p>\n\n\n\n            </div> <!-- end chat-message-content -->\n\n\n\n          </div> <!-- end chat-message -->\n\n\n\n          <hr>\n\n\n\n        </div> <!-- end chat-history -->\n\n\n\n        <p class="chat-feedback">Someone is typing…</p>\n\n\n\n        <form action="#" method="post">\n\n\n\n          <fieldset>\n\n\n\n            <input type="text" placeholder="Type your message…" autofocus>\n\n            <input type="hidden">\n\n\n\n          </fieldset>\n\n\n\n        </form>\n\n\n\n      </div> <!-- end chat -->\n\n\n\n    </div> <!-- end live-chat -->\n\n\n\n    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>\n\n  </div>\n\n\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Paul\WebstormProjects\FoodRoach\src\pages\event\event.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__app_EventData__["a" /* EventData */]])
-    ], EventPage);
-    return EventPage;
-}());
-
-//# sourceMappingURL=event.js.map
-
-/***/ }),
-
-/***/ 105:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DateModalPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
@@ -250,6 +147,109 @@ var DateModalPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=date-modal.js.map
+
+/***/ }),
+
+/***/ 104:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DistanceModalPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the DistanceModalPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var DistanceModalPage = /** @class */ (function () {
+    function DistanceModalPage(navCtrl, navParams, viewCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.viewCtrl = viewCtrl;
+    }
+    DistanceModalPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    DistanceModalPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad DistanceModalPage');
+    };
+    DistanceModalPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-distance-modal',template:/*ion-inline-start:"C:\Users\Paul\WebstormProjects\FoodRoach\src\pages\distance-modal\distance-modal.html"*/'<!--\n  Generated template for the DistanceModalPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Select Distance</ion-title>\n    <button ion-button block (click)="closeModal()">Close</button>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <div>\n    <p></p>\n    <P></P>\n  </div>\n  <ion-list>\n    <ion-list-header>\n      Distance\n      <ion-badge item-end>{{distance}}</ion-badge>\n    </ion-list-header>\n    <ion-item>\n\n      <ion-range min="0" max="10" step="0.25" [(ngModel)]="distance">\n        <ion-label range-left>0 Miles</ion-label>\n        <ion-label range-right>10 Miles</ion-label>\n      </ion-range>\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Paul\WebstormProjects\FoodRoach\src\pages\distance-modal\distance-modal.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ViewController */]])
+    ], DistanceModalPage);
+    return DistanceModalPage;
+}());
+
+//# sourceMappingURL=distance-modal.js.map
+
+/***/ }),
+
+/***/ 105:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EventPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_EventData__ = __webpack_require__(46);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the EventPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var EventPage = /** @class */ (function () {
+    function EventPage(navCtrl, navParams, viewCtrl, EventData) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.viewCtrl = viewCtrl;
+        this.EventData = EventData;
+    }
+    EventPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad EventPage');
+    };
+    EventPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    EventPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-event',template:/*ion-inline-start:"C:\Users\Paul\WebstormProjects\FoodRoach\src\pages\event\event.html"*/'<!--\n\n  Generated template for the EventPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>event-page</ion-title>\n\n  </ion-navbar>\n\n  <ion-buttons end>\n\n    <button ion-button icon-only (click)="closeModal()">\n\n      <ion-icon name="close-circle"></ion-icon>\n\n    </button>\n\n  </ion-buttons>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <div class="card">\n\n    <div class="card_image">\n\n      <img src="http://www.thechinesequest.com/wp-content/uploads/2014/08/Chinese-food-facts.jpg" alt="" class="image">\n\n    </div>\n\n  <div class="cardContent">\n\n    <p class="cardContentName">China Night</p>\n\n     <div class ="icon-event">\n\n       <ion-icon class ="icon-event" name="time"></ion-icon> April 6th\n\n       <hr>\n\n       <ion-icon class ="icon-event" name="pizza"></ion-icon> Asian\n\n       <hr>\n\n       <ion-icon class ="icon-event" name="bug"></ion-icon> Formal\n\n       <hr>\n\n       <ion-icon class ="icon-event" name="navigate"></ion-icon> 600 ft\n\n       <hr>\n\n     </div>\n\n\n\n    <p class="cardContentName">Description</p>\n\n    <p> Come to celebrate Chinese lunar new year, one of the most important festivals in China with us on Feb. 20th. There will be a great variety of authentic Chinese food as well as exciting performances! This will be a great chance for you to take a break from stressful schoolwork, hang out with besties, and even have a sweet night with your family!</p>\n\n    </div>\n\n    <ion-toolbar no-border-top>\n\n      <ion-segment [(ngModel)]="PoF">\n\n        <ion-segment-button value="F">\n\n          Comments\n\n        </ion-segment-button>\n\n        <ion-segment-button value="P">\n\n          Questions\n\n        </ion-segment-button>\n\n      </ion-segment>\n\n    </ion-toolbar>\n\n    <hr>\n\n    <div id="live-chat">\n\n\n\n      <div class="chat">\n\n\n\n        <div class="chat-history">\n\n\n\n          <div class="chat-message clearfix">\n\n\n\n            <img src="http://lorempixum.com/32/32/people" alt="" width="32" height="32">\n\n\n\n            <div class="chat-message-content clearfix">\n\n\n\n              <span class="chat-time">13:35</span>\n\n\n\n              <h5>Qile</h5>\n\n\n\n              <p>Are there any Veggie options?</p>\n\n\n\n            </div> <!-- end chat-message-content -->\n\n\n\n          </div> <!-- end chat-message -->\n\n\n\n          <hr>\n\n\n\n          <div class="chat-message clearfix">\n\n\n\n            <img src="http://gravatar.com/avatar/2c0ad52fc5943b78d6abe069cc08f320?s=32" alt="" width="32" height="32">\n\n\n\n            <div class="chat-message-content clearfix">\n\n\n\n              <span class="chat-time">13:37</span>\n\n\n\n              <h5>Joakin Isoaho</h5>\n\n\n\n              <p>Thank you for such an amazing event!</p>\n\n\n\n            </div> <!-- end chat-message-content -->\n\n\n\n          </div> <!-- end chat-message -->\n\n\n\n          <hr>\n\n\n\n          <div class="chat-message clearfix">\n\n\n\n            <img src="http://lorempixum.com/32/32/people" alt="" width="32" height="32">\n\n\n\n            <div class="chat-message-content clearfix">\n\n\n\n              <span class="chat-time">13:38</span>\n\n\n\n              <h5> Rajul</h5>\n\n\n\n              <p> Are there any halal options?</p>\n\n\n\n            </div> <!-- end chat-message-content -->\n\n\n\n          </div> <!-- end chat-message -->\n\n\n\n          <hr>\n\n\n\n        </div> <!-- end chat-history -->\n\n\n\n        <p class="chat-feedback">Someone is typing…</p>\n\n\n\n        <form action="#" method="post">\n\n\n\n          <fieldset>\n\n\n\n            <input type="text" placeholder="Type your message…" autofocus>\n\n            <input type="hidden">\n\n\n\n          </fieldset>\n\n\n\n        </form>\n\n\n\n      </div> <!-- end chat -->\n\n\n\n    </div> <!-- end live-chat -->\n\n\n\n    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>\n\n  </div>\n\n\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Paul\WebstormProjects\FoodRoach\src\pages\event\event.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ViewController */], __WEBPACK_IMPORTED_MODULE_2__app_EventData__["a" /* EventData */]])
+    ], EventPage);
+    return EventPage;
+}());
+
+//# sourceMappingURL=event.js.map
 
 /***/ }),
 
@@ -339,15 +339,15 @@ var map = {
 		4
 	],
 	"../pages/date-modal/date-modal.module": [
-		284,
+		282,
 		3
 	],
 	"../pages/distance-modal/distance-modal.module": [
-		282,
+		283,
 		2
 	],
 	"../pages/event/event.module": [
-		283,
+		284,
 		1
 	],
 	"../pages/filter-modal/filter-modal.module": [
@@ -494,11 +494,11 @@ var CreateEventPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__date_modal_date_modal__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__distance_modal_distance_modal__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__date_modal_date_modal__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__distance_modal_distance_modal__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__filter_modal_filter_modal__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_EventData__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__event_event__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__event_event__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -583,13 +583,13 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_account_account__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_favorties_favorites__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_createEvent_createEvent__ = __webpack_require__(203);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_date_modal_date_modal__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_distance_modal_distance_modal__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_date_modal_date_modal__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_distance_modal_distance_modal__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_filter_modal_filter_modal__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__EventData__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_splash_screen__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_event_event__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_event_event__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -638,9 +638,9 @@ var AppModule = /** @class */ (function () {
                     links: [
                         { loadChildren: '../pages/account/account.module#AccountPageModule', name: 'AccountPage', segment: 'account', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/alerts/alerts.module#AlertsPageModule', name: 'AlertsPage', segment: 'alerts', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/date-modal/date-modal.module#DateModalPageModule', name: 'DateModalPage', segment: 'date-modal', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/distance-modal/distance-modal.module#DistanceModalPageModule', name: 'DistanceModalPage', segment: 'distance-modal', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/event/event.module#EventPageModule', name: 'EventPage', segment: 'event', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/date-modal/date-modal.module#DateModalPageModule', name: 'DateModalPage', segment: 'date-modal', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/filter-modal/filter-modal.module#FilterModalPageModule', name: 'FilterModalPage', segment: 'filter-modal', priority: 'low', defaultHistory: [] }
                     ]
                 })
